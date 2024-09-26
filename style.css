@@ -1,0 +1,59 @@
+body{
+    background-color: gainsboro;
+}
+header{
+    background-color: rgb(76, 143, 76);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color: white;
+}
+header span:hover{
+    cursor: pointer;
+    color: red;
+}
+
+section{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color: white;
+}
+section span:hover{
+    cursor: pointer;
+    color: violet;
+}
+#card1{
+    height: 200px;
+    width: 320px;
+    background-color:gray;
+    border-radius: 10px;
+}
+#part1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 170px;
+    background-color:white;
+}
+#part2{
+    float: right;
+}
+button{
+    background-color: red;
+    height: 35px;
+    width: 55px;
+    border-radius: 20px;
+padding: 5px;
+float: right;
+color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
